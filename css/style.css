@@ -14,8 +14,19 @@ a {
   text-decoration: none;
 }
 
+html {
+  background-image: url(../img/bg1.jpg);
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  background-attachment: local;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: contain;
+  background-color: #001821;
+}
+
 body {
-    background: #001821 url('../img/bg1.jpg') no-repeat;
 
 /* текст
 ================================ */
