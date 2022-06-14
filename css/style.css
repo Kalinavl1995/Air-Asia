@@ -285,7 +285,7 @@ body {
 .news__block-item {
   position: absolute;
   left: 32px;
-  bottom: 48px;
+  top: 252px;
 }
 
 .news__date {
@@ -329,6 +329,9 @@ body {
 
 .paginator__item {
   display: inline;
+  position: relative;
+  z-index: 10;
+
 }
 
 .paginator__item + .paginator__item {
@@ -342,13 +345,26 @@ body {
   color: #fff;
 }
 
-.paginator__link:hover {
+.paginator__link::before {
+  content: '';
+  display: none;
+  position: absolute;
+  left: -11px;
+  top: -21px;
+  z-index: -2;
   border-radius: 50%;
   background: #fff;
   color: #F5170E;
   height: 32px;
   width: 32px;
-  transition: background-color .3s;
+}
+
+.paginator__link:hover {
+  color: #F5170E;
+}
+
+.paginator__link:hover::before {
+  display: block;
 }
 
 /* about-us
