@@ -15,15 +15,17 @@ a {
 }
 
 html {
-  background-image: url(../img/bg1.jpg);
-  background-repeat: no-repeat;
+  background: url(../img/bg1.jpg) no-repeat center top, url(../img/bg2.jpg) no-repeat center bottom;
+  background-color: #001821;
+  /* background-repeat: no-repeat;
   background-position: 0 0;
   background-attachment: local;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: contain;
-  background-color: #001821;
+  background-color: #001821; */
+
 }
 
 body {
