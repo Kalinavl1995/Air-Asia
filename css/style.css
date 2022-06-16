@@ -14,20 +14,6 @@ a {
   text-decoration: none;
 }
 
-html {
-  background: url(../img/bg1.jpg) no-repeat center top, url(../img/bg2.jpg) no-repeat center bottom;
-  background-color: #001821;
-  /* background-repeat: no-repeat;
-  background-position: 0 0;
-  background-attachment: local;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: contain;
-  background-color: #001821; */
-
-}
-
 body {
 
 /* текст
@@ -41,14 +27,18 @@ body {
     -webkit-font-smoothing: antialiased;
 }
 
+
 /* wrapper
 ================================ */
+.wrapper {
+  background: url(../img/bg1.jpg) no-repeat center top, url(../img/bg2.jpg) no-repeat center bottom;
+  background-color: #001821;
+}
 
 .container {
   margin: 0 auto;
   max-width: 1170px;
   padding: 0 15px;
-
 }
 
 /* header
@@ -70,7 +60,7 @@ body {
 
 .menu__header {
   position: absolute;
-  top: 10px;
+  top: 13px;
   left: 164px;
 }
 
@@ -80,7 +70,7 @@ body {
 
 .menu__item {
   display: inline;
-  margin-left: 54px;
+  margin-left: 51px;
 }
 
 .menu__item:first-child {
@@ -107,7 +97,7 @@ body {
 
 .contacts__header {
   position: absolute;
-  top: 0;
+  top: 7px;
   right: 0;
 }
 
@@ -124,6 +114,8 @@ body {
 
 .contacts__workhours {
   position: relative;
+  top: -4px;
+  right: 2px;
   font-size: 13px;
   text-decoration-line: underline;
   color: #fff;
@@ -174,16 +166,16 @@ body {
 ====================================== */
 
 .header__intro {
-  padding-top: 131px;
+  padding-top: 158px;
   max-width: 511px;
-  margin-bottom: 246px;
+  margin-bottom: 256px;
 }
 
 .header__title {
   display: inline-block;
-  margin-bottom: 27px;
+  margin-bottom: 28px;
   font-size: 72px;
-  line-height: 1.17em;
+  line-height: 1.35em;
   color: #FFFFFF;
 }
 
@@ -219,11 +211,11 @@ body {
 ======================================= */
 
 .hot-tour {
-  margin-bottom: 127px;
+  margin-bottom: 140px;
 }
 
 .hot-tour__title {
-  margin-bottom: 51px;
+  margin-bottom: 62px;
 }
 
 .hot-tour__title::after {
@@ -232,6 +224,7 @@ body {
 }
 
 .title {
+  transform: translate(2px, 0px);
   font-size: 36px;
   font-weight: 700;
   color: #FFFFFF;
@@ -261,18 +254,19 @@ body {
 
 .hot-tour__block-content {
   display: inline-block;
-  padding: 21px 22px;
+  padding: 30px 21px 28px;
 }
 
 .hot-tour__name {
-  margin-bottom: 21px;
+  margin-bottom: 19px;
   font-size: 24px;
   font-weight: 700;
   color: #000000;
 }
 
 .hot-tour__offers {
-  margin-bottom: 23px;
+  margin-bottom: 22px;
+  margin-left: 6px;
 }
 
 .hot-tour__offers-item {
@@ -288,16 +282,18 @@ body {
 
 .hot-tour__icon {
   margin-right: 10px;
+  transform: translate(0px, 8px);
 }
 
 .hot-tour__text {
-  margin-bottom: 24px;
+  margin-bottom: 22px;
   font-size: 14px;
   line-height: 1.5em;
   color: #303030;
 }
 
 .hot-tour__btn {
+  transform: translate(2px, 1px);
   width: 135px;
   height: 55px;
   background: #FFFFFF;
@@ -319,7 +315,7 @@ body {
 }
 
 .news__title {
-  margin-bottom: 51px;
+  margin-bottom: 67px;
 }
 
 .news__block {
@@ -339,20 +335,21 @@ body {
 
 .news__block-item {
   position: absolute;
-  left: 32px;
-  top: 252px;
+  left: 28px;
+  top: 255px;
 }
 
 .news__date {
-  margin-bottom: 12px;
+  margin-bottom: 20px;
   font-size: 14px;
   font-weight: 400;
+  line-height: 1.1em;
 }
 
 .news__subtitle {
   font-size: 24px;
   font-weight: 700;
-  line-height: 1.5em;
+  line-height: 1.1em;
   margin-bottom: 5px;
 }
 
@@ -367,19 +364,24 @@ body {
 
 .paginator {
   text-align: center;
-  padding-top: 57px;
-  margin-bottom: 152px;
+  margin-bottom: 193px;
+  position: relative;
+  top: 46px;
+  left: -104px;
 }
 
 .paginator__display {
   display: inline;
   font-size: 16px;
   color: #fff;
-  margin-right: 36px;
+  margin-right: 45px;
 }
 
 .paginator__list {
   display: inline;
+  position: absolute;
+  top: 2px;
+  left: 646px;
 }
 
 .paginator__item {
@@ -390,7 +392,7 @@ body {
 }
 
 .paginator__item + .paginator__item {
-  margin-left: 24px;
+  margin-left: 25px;
 }
 
 .paginator__link {
@@ -427,7 +429,7 @@ body {
 ============================================== */
 
 .about-us {
-  margin-bottom: 100px;
+  margin-bottom: 97px;
 }
 
 .about-us__inner {
@@ -451,12 +453,12 @@ body {
 
 .about-us__content {
   position: absolute;
-  top: 70px;
-  left: 81px;
+  top: 84px;
+  left: 79px;
 }
 
 .about-us__title {
-  margin-bottom: 37px;
+  margin-bottom: 52px;
   color: #000000;
 }
 
@@ -479,8 +481,8 @@ body {
 
 .menu__footer {
   position: absolute;
-  top: 55px;
-  left: 165px;
+  top: 60px;
+  left: 164px;
 }
 
 /* social
@@ -517,7 +519,7 @@ body {
 
 .contacts__footer {
   position: absolute;
-  top: 41px;
+  top: 44px;
   right: 0;
 }
 
