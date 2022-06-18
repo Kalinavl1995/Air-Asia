@@ -330,8 +330,9 @@ body {
   position: relative;
   max-width: 557px;
   display: inline-block;
-  border-radius: 5px;
   margin-bottom: 42px;
+  border-radius: 5px;
+  overflow: hidden;
 }
 
 .news__block + .news__block {
@@ -339,14 +340,15 @@ body {
 }
 
 .news__image {
-  border-radius: 5px;
+  display: block;
 }
 
 .news__block-item {
   position: absolute;
   left: 28px;
-  bottom: 36px;
+  bottom: 27px;
 }
+
 
 .news__date {
   margin-bottom: 20px;
