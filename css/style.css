@@ -110,8 +110,9 @@ body {
 }
 
 .contacts__workhours {
-  position: relative;
-  top: -4px;
+  display: inline-block;
+  position: absolute;
+  top: 20px;
   right: 2px;
   font-size: 13px;
   text-decoration-line: underline;
@@ -132,13 +133,14 @@ body {
 }
 
 .contacts__tooltip {
+    display: block;
     position: absolute;
-    left: 34px;
+    left: -59px;
     top: 30px;
     z-index: 1;
     visibility: hidden;
     padding: 14px 17px;
-    max-width: 157px;
+    min-width: 157px;
     font-size: 13px;
     font-weight: 700;
     background-color: #EDEDED;
