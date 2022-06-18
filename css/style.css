@@ -92,7 +92,7 @@ body {
   text-align: end;
 }
 
-.contacts__header {
+.header__contacts {
   position: absolute;
   top: 7px;
   right: 0;
@@ -186,16 +186,16 @@ body {
 ======================================== */
 
 .btn {
-  width: 168px;
-  height: 55px;
+  display: inline-block;
+  padding: 18px 40px;
   font-family: 'Open Sans', sans-serif;
   font-size: 14px;
-  text-transform: uppercase;
   font-weight: 700;
-  background: #F5170E;
+  text-align: center;
+  text-transform: uppercase;
   border-radius: 35px;
+  background: #F5170E;
   color: #fff;
-  border: 0;
   cursor: pointer;
 }
 
@@ -232,8 +232,10 @@ body {
 }
 
 .hot-tour__block {
+  vertical-align: top;
   display: inline-block;
   max-width: 362px;
+  min-height: 449px;
   background: #FFFFFF;
   border-radius: 5px 5px 5px 5px;
   margin-right: 27px;
@@ -245,12 +247,13 @@ body {
 }
 
 .hot-tour__pic {
+  display: block;
   border-radius: 5px 5px 0px 0px;
 }
 
 .hot-tour__block-content {
   display: inline-block;
-  padding: 30px 21px 28px;
+  padding: 39px 21px 28px;
 }
 
 .hot-tour__name {
@@ -288,19 +291,21 @@ body {
   color: #303030;
 }
 
-.hot-tour__btn {
-  transform: translate(2px, 1px);
-  width: 135px;
-  height: 55px;
+.hot-tour__block-content .btn {
+  padding: 18px 30px;
+}
+
+.btn--white {
+  /* transform: translate(2px, 1px); */
   background: #FFFFFF;
   color: #F5170E;
   border: 1px solid #F5170E;
 }
 
-.hot-tour__btn:hover {
+.btn--white:hover {
   background: #DA0100;
-  transition: all .3s;
   color: #fff;
+  transition: all .3s;
 }
 
 /* news
@@ -312,7 +317,7 @@ body {
 }
 
 .news__title {
-  margin-bottom: 67px;
+  margin-bottom: 64px;
 }
 
 .news__block {
@@ -334,7 +339,7 @@ body {
 .news__block-item {
   position: absolute;
   left: 28px;
-  top: 255px;
+  bottom: 36px;
 }
 
 .news__date {
@@ -348,13 +353,17 @@ body {
   font-size: 24px;
   font-weight: 700;
   line-height: 1.1em;
-  margin-bottom: 5px;
+  margin-bottom: 3px;
 }
 
-.news__paragraph {
+.news__desc {
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5em;
+}
+
+.news__desc p:not(:last-child) {
+  margin-bottom: 15px;
 }
 
 /* paginator
@@ -390,8 +399,8 @@ body {
 
 .paginator__link {
   display: block;
-  height: 32px;
-  width: 32px;
+  min-height: 32px;
+  min-width: 32px;
   border-radius: 50%;
   font-weight: 700;
   line-height: 32px;
@@ -431,8 +440,11 @@ body {
   margin-top: 97px;
 }
 
-.about__title {
+.about__block .title {
   margin-bottom: 53px;
+}
+
+.title--black {
   color: #000000;
 }
 
