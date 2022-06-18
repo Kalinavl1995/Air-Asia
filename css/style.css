@@ -115,13 +115,17 @@ body {
   right: 2px;
   font-size: 13px;
   text-decoration-line: underline;
-  color: #fff;
+  color: #98A4A8;
   font-style: normal;
   cursor: pointer;
 }
 
 /* tooltlip
 ============================= */
+
+.contacts__workhours:hover {
+  color: #fff;
+}
 
 .contacts__workhours:hover .contacts__tooltip {
   visibility: visible;
