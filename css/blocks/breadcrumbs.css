@@ -1,13 +1,18 @@
 .breadcrumbs {
     color: #9A9A9A;
+    padding-bottom: 26px;
 }
 
 .breadcrumbs__list {
     display: flex;
 }
 
-.breadcrumbs__item {
+.breadcrumbs__link {
     text-decoration: underline;
+}
+
+.breadcrumbs__item:not(:first-child) {
+    margin-left: .2em;
 }
 
 .breadcrumbs__item:not(:last-child):after {

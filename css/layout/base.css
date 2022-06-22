@@ -44,9 +44,8 @@ html, body {
   background-color: #001821;
 }
 
-.wrapper--services {
-  background: url('../../img/services/headline.png') no-repeat center top;
-  background-color: #fff;
+.wrapper__services-page {
+  background: #fff;
 }
 
 .wrapper__content {

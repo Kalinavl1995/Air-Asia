@@ -1,5 +1,6 @@
 .partners {
-    background: #F4F5F5;
+    /* background: #F4F5F5; */
+    background-color: black;
 }
 
 .partners__section-title {
@@ -11,6 +12,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    margin-bottom: 30px;
 }
 
 .partners__item {

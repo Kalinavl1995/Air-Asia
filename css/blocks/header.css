@@ -1,3 +1,7 @@
+.header__services-page{
+  background: url('../../img/services/headline.png') no-repeat center top;
+  background-color: #001A25 ;
+}
 .header__inner {
   display: flex;
   padding: 22px 0;
