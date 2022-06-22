@@ -22,6 +22,7 @@
     color: #98A4A8;
     font-style: normal;
     cursor: pointer;
+    margin-left: auto;
   }
 
 .contacts__text {
@@ -45,7 +46,7 @@
     display: flex;
     flex-wrap: wrap;
     position: absolute;
-    left: 35px;
+    left: -60px;
     top: 30px;
     z-index: 1;
     visibility: hidden;

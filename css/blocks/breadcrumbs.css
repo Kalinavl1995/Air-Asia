@@ -1,0 +1,19 @@
+.breadcrumbs {
+    color: #9A9A9A;
+}
+
+.breadcrumbs__list {
+    display: flex;
+}
+
+.breadcrumbs__item {
+    text-decoration: underline;
+}
+
+.breadcrumbs__item:not(:last-child):after {
+    content: "/";
+}
+
+.breadcrumbs__link--active {
+    font-weight: 700;
+}

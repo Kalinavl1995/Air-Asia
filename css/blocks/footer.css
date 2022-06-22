@@ -1,38 +1,23 @@
 .footer{
   background: #001821;
-
 }
+
 .footer__inner {
     display: flex;
     align-items: center;
     border-top: 1px solid rgba(250, 250, 250, .1);
     padding: 40px 0;
-
   }
 
-.footer__inner .menu {
+.footer__menu {
   margin-left: 80px;
-
 }
 
-.footer__inner .social {
+.footer__social {
   margin-left: auto;
 }
 
-  .footer__inner .contacts {
+.footer__contacts {
     margin-left: 75px;
   }
-
-  /* .footer__menu {
-    position: absolute;
-    top: 60px;
-    left: 164px;
-  } */
-
-
-  /* .footer__contacts {
-    position: absolute;
-    top: 44px;
-    right: 0;
-  } */
 

@@ -1,5 +1,4 @@
 .news {
-    font-size: 0;
     margin-bottom: 145px;
   }
 
@@ -9,8 +8,8 @@
 
   .news__content {
     display: flex;
+    justify-content: space-between;
     margin-bottom: 52px;
-
   }
 
   .news__block {
@@ -21,15 +20,11 @@
     overflow: hidden;
   }
 
-  .news__block + .news__block {
-    margin-left: 25px;
-  }
-
   .news__image {
     display: block;
   }
 
-  .news__block-item {
+  .news__block-content {
     position: absolute;
     left: 28px;
     bottom: 27px;

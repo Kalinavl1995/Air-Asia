@@ -36,21 +36,25 @@ html, body {
 ============================================= */
 
 .wrapper {
-    overflow: hidden;
-    /* min-width: 1200px; */
-    min-height: 100%;
-    display: flex;
-    flex-direction: column;
-    background: url('../../img/bg1.jpg') no-repeat center top, url('../../img/bg2.jpg') no-repeat center bottom 165px;
-    background-color: #001821;
+  overflow: hidden;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  background: url('../../img/bg1.jpg') no-repeat center top, url('../../img/bg2.jpg') no-repeat center bottom 165px;
+  background-color: #001821;
+}
+
+.wrapper--services {
+  background: url('../../img/services/headline.png') no-repeat center top;
+  background-color: #fff;
 }
 
 .wrapper__content {
-    flex: 1;
+  flex: 1;
 }
 
 .container {
-    margin: 0 auto;
-    max-width: 1170px;
-    padding: 0 15px;
+  margin: 0 auto;
+  max-width: 1170px;
+  padding: 0 15px;
 }

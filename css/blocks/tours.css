@@ -8,7 +8,7 @@
 }
 
 .tours__title::after {
-  content: url(../../img/tours/flame.svg);
+  content: url('../../img/tours/flame.svg');
   margin-left: 12px;
 }
 
@@ -75,7 +75,7 @@
   margin-right: 10px;
 }
 
-.tours__text {
+.tours__desc {
   margin-bottom: 22px;
   font-size: 14px;
   line-height: 1.5em;

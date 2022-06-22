@@ -24,26 +24,22 @@
     margin-top: 97px;
   }
 
-  .about__block .title {
+  .about__section-title {
     margin-bottom: 38px;
   }
 
-  .title--black {
-    color: #000000;
-  }
-
-  .about__block-text {
+  .about__desc {
     margin-bottom: 43px;
     font-size: 16px;
     color: #060606;
     line-height: 1.68em;
   }
 
-  .about__block-text p {
+  .about__desc p {
     margin-bottom: 20px;
     max-width: 502px;
   }
 
-  .about__block-text p:last-child {
+  .about__desc p:last-child {
     margin-bottom: 0;
   }

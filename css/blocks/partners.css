@@ -1,0 +1,25 @@
+.partners {
+    background: #F4F5F5;
+}
+
+.partners__section-title {
+    font-size: 48px;
+    margin-bottom: 79px;
+}
+
+.partners__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.partners__item {
+    display: flex;
+    min-width: 22%;
+    margin-bottom: 79px;
+    align-items: center;
+}
+
+.partners__image {
+    display: block;
+}

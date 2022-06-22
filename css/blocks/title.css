@@ -1,5 +1,16 @@
 .title {
+  font-size: 72px;
+  font-weight: 700;
+  line-height: 1.36em;
+  max-width: 551px;
+}
+
+.section-title {
     font-size: 36px;
     font-weight: 700;
     color: #FFFFFF;
+  }
+
+  .section-title--black {
+    color: #000000;
   }

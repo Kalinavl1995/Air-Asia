@@ -4,17 +4,11 @@
   }
 
 .intro__title {
-    display: inline-block;
     margin-bottom: 28px;
-    font-size: 72px;
-    line-height: 1.35em;
-    color: #FFFFFF;
-    max-width: 551px;
 }
 
-.intro__subtitle {
+.intro__desc {
     margin-bottom: 29px;
     font-size: 18px;
-    color: #FFFFFF;
     max-width: 551px;
 }
