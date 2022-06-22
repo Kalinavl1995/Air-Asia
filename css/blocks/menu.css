@@ -1,0 +1,27 @@
+.menu {
+
+
+  }
+
+  .menu__list {
+    display: inline;
+  }
+
+  .menu__item {
+    display: inline;
+    margin-left: 51px;
+  }
+
+  .menu__item:first-child {
+    margin-left: 0px;
+  }
+
+  .menu__link {
+    display: inline;
+    color: #fff;
+  }
+
+  .menu__link:hover {
+    color: #DA0100;
+    transition: all .3s;
+  }

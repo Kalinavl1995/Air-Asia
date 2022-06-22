@@ -1,0 +1,30 @@
+.btn {
+    display: inline-block;
+    padding: 18px 40px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    border-radius: 35px;
+    background: #F5170E;
+    color: #fff;
+    cursor: pointer;
+  }
+
+.btn:hover {
+    background: #DA0100;
+    transition: all .3s;
+  }
+
+.btn--white {
+    background: #FFFFFF;
+    color: #F5170E;
+    border: 1px solid #F5170E;
+  }
+
+.btn--white:hover {
+    background: #DA0100;
+    color: #fff;
+    transition: all .3s;
+  }

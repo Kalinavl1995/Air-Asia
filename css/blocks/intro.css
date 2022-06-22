@@ -1,0 +1,20 @@
+.intro {
+    padding-top: 97px;
+    margin-bottom: 244px;
+  }
+
+.intro__title {
+    display: inline-block;
+    margin-bottom: 28px;
+    font-size: 72px;
+    line-height: 1.35em;
+    color: #FFFFFF;
+    max-width: 551px;
+}
+
+.intro__subtitle {
+    margin-bottom: 29px;
+    font-size: 18px;
+    color: #FFFFFF;
+    max-width: 551px;
+}

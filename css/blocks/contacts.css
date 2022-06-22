@@ -1,0 +1,75 @@
+.contacts {
+  display: flex;
+  flex-direction: column;
+  text-align: end;
+  }
+
+  .contacts__phone {
+    font-style: normal;
+    color: #fff;
+    font-size: 26px;
+  }
+
+  .contacts__phone:hover {
+    color: #DA0100;
+    transition: all .3s;
+  }
+
+  .contacts__workhours {
+    position: relative;
+    font-size: 13px;
+    text-decoration-line: underline;
+    color: #98A4A8;
+    font-style: normal;
+    cursor: pointer;
+  }
+
+.contacts__text {
+    font-size: 11px;
+    color: #9A9A9A;
+    font-style: normal;
+  }
+
+  /* tooltlip
+  ============================= */
+
+.contacts__workhours:hover {
+    color: #fff;
+  }
+
+.contacts__workhours:hover .contacts__tooltip {
+    visibility: visible;
+  }
+
+.contacts__tooltip {
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    left: 35px;
+    top: 30px;
+    z-index: 1;
+    visibility: hidden;
+    padding: 14px 17px;
+    font-size: 13px;
+    font-weight: 700;
+    background-color: #EDEDED;
+    opacity: 80%;
+    color: #000;
+    border-radius: 6px;
+  }
+
+.contacts__tooltip::after {
+    content: " ";
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    margin-left: 15px;
+    border-width: 12px;
+    border-style: solid;
+    border-color: transparent transparent #EDEDED transparent;
+  }
+
+.contacts__tooltip-text2 {
+    font-weight: 600;
+  }
+
