@@ -42,7 +42,7 @@ html, body {
   flex-direction: column;
 }
 
-.wrapper__index-page {
+.wrapper--index-page {
   background: url('../../img/bg1.jpg') no-repeat center top, url('../../img/bg2.jpg') no-repeat center bottom 165px;
   background-color: #001821;
 }
