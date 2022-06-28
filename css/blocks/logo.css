@@ -1,3 +1,29 @@
 .logo {
   display: block;
   }
+  .logo--size--for-homepage {
+    position: relative;
+    min-width: 279px;
+    min-height: 119px;
+    z-index: 10;
+  }
+
+  .logo--decor--homepage::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-image: url('../../img/homepage/shades.png');
+    display: block;
+    width: 591px;
+    height: 248px;
+    pointer-events: none;
+    z-index: -10;
+
+  }
+
+  .logo__pic {
+    width: 100%;
+    height: 100%;
+  }

@@ -5,11 +5,17 @@
 }
 
 .section-title {
-    font-size: 36px;
-    font-weight: 700;
-    color: #FFFFFF;
-  }
+  font-size: 36px;
+  font-weight: 700;
+  color: #FFFFFF;
+}
 
-  .section-title--black {
-    color: #000000;
-  }
+.section-title--black {
+  color: #000000;
+}
+
+.subtitle-homepage {
+  font-size: 18px;
+  font-weight: 400;
+  z-index: 10;
+}

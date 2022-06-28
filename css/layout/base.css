@@ -47,6 +47,11 @@ html, body {
   background-color: #001821;
 }
 
+.wrapper--homepage {
+  background: url('../../img/homepage/bg.jpg') center / cover no-repeat;
+  background-color: #020D13;
+}
+
 .wrapper__content {
   flex: 1;
 }
