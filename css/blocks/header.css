@@ -1,18 +1,15 @@
-.header--services-page{
-  background: url('../../img/services/headline.png') no-repeat center top;
-  background-color: #001A25 ;
-}
 .header__inner {
   display: flex;
-  padding: 22px 0;
+  padding: 25px 0 0;
   align-items: center;
-  }
+  margin-bottom: 25px;
+}
 
 .header__contacts {
   margin-left: auto;
-  }
+}
 
-  .header__menu {
+.header__menu {
   margin-left: 80px;
-  }
+}
 

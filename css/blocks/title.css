@@ -10,8 +10,11 @@
   color: #FFFFFF;
 }
 
-.section-title--black {
+.section-title--color--black {
   color: #000000;
+}
+.section-title--size--48 {
+  font-size: 48px;
 }
 
 .subtitle-homepage {

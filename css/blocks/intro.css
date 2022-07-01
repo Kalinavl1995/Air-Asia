@@ -1,0 +1,28 @@
+.intro {
+    margin-bottom: 244px;
+}
+
+.intro__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 600px;
+}
+
+.intro__content {
+    margin-top: auto;
+}
+
+.intro__content-block {
+    width: 45%;
+}
+
+.intro__title {
+    margin-bottom: 28px;
+    margin-top: auto;
+}
+
+.intro__desc {
+    margin-bottom: 29px;
+    font-size: 18px;
+}

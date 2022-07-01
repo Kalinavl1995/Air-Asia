@@ -1,0 +1,75 @@
+.review {
+    display: inline-flex;
+    flex-direction: column;
+    padding: 50px 30px;
+    background: #F4F5F5;
+    border-radius: 5px;
+}
+
+
+.review__userdata {
+    margin-left: 20px;
+}
+
+.review__header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+
+.review__user {
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    font-weight: 700;
+    color: #1A1B1E;
+    margin-bottom: 11px;
+    transition: .3s;
+}
+
+.review__user:hover {
+    color: #2E77A4;
+    text-decoration: underline;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.review__user::after {
+    content: url('../../img/reviews/vk.svg');
+    margin-left: 6px;
+    height: 29px;
+
+}
+
+.review__tags {
+    display: flex;
+    align-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.review__tag-item {
+    display: inline-flex;
+    margin-right: 7px;
+    margin-bottom: 7px;
+}
+.review__title {
+    font-size: 30px;
+    color: #1A1B1E;
+    font-weight: 700;
+    margin-bottom: 23px;
+}
+
+.review__desc {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.68em;
+    color: #818181;
+    margin-bottom: 50px;
+}
+
+.review__date {
+    font-size: 14px;
+    font-weight: 600;
+    color: #1A1B1E;
+}
