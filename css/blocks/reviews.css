@@ -1,18 +1,16 @@
 .reviews {
-    padding: 98px 0;
+    padding: 100px 0 86px;
 }
 
 .reviews__list {
     column-count: 2;
     column-gap: 26px;
-    margin-bottom: 76px;
+    margin-bottom: 52px;
 }
 
 .reviews__item {
     margin-bottom: 20px;
 }
-
-
 
 
 

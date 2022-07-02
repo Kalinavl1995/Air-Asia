@@ -19,6 +19,11 @@
     min-width: 22%;
     margin-bottom: 79px;
     align-items: center;
+    filter: grayscale(100%);
+}
+
+.partners__item:hover {
+    filter: grayscale(0);
 }
 
 .partners__image {

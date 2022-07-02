@@ -6,7 +6,6 @@
     border-radius: 5px;
 }
 
-
 .review__userdata {
     margin-left: 20px;
 }
@@ -14,9 +13,8 @@
 .review__header {
     display: flex;
     align-items: center;
-    margin-bottom: 30px;
+    margin-bottom: 28px;
 }
-
 
 .review__user {
     display: flex;
@@ -53,11 +51,12 @@
     margin-right: 7px;
     margin-bottom: 7px;
 }
+
 .review__title {
     font-size: 30px;
     color: #1A1B1E;
     font-weight: 700;
-    margin-bottom: 23px;
+    margin-bottom: 12px;
 }
 
 .review__desc {

@@ -16,7 +16,11 @@
     position: relative;
     align-items: center;
     width: 279px;
-    animation: grow 1.3s ;
+    opacity: 0;
+    animation: grow .9s ;
+    animation-delay: .8s;
+    animation-fill-mode: forwards;
+
 }
 
 .central::before {
@@ -28,8 +32,8 @@
     top: -20%;
     left: -60%;
     z-index: -10;
-    animation: shadow .8s;
-    animation-delay: 1.2s;
+    animation: shadow .5s;
+    animation-delay: 1.6s;
     animation-fill-mode: both;
 }
 
@@ -48,7 +52,7 @@
 @keyframes grow {
 
     0% {
-        transform: scale3d(1, 1, 1);
+        transform: scale3d(0, 0, 0);
     }
 
     25% {
@@ -56,7 +60,7 @@
     }
 
     50% {
-        transform: scale3d(1, 1, 1);
+        transform: scale3d(.9, .9, .9);
     }
 
     75% {
@@ -65,6 +69,7 @@
 
     100% {
         transform: scale3d(1, 1, 1,);
+        opacity: 1;
     }
 }
 
