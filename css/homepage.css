@@ -18,7 +18,7 @@
     width: 279px;
     opacity: 0;
     animation: grow .9s ;
-    animation-delay: .8s;
+    animation-delay: .4s;
     animation-fill-mode: forwards;
 
 }
@@ -33,7 +33,7 @@
     left: -60%;
     z-index: -10;
     animation: shadow .5s;
-    animation-delay: 1.6s;
+    animation-delay: 1.2s;
     animation-fill-mode: both;
 }
 
