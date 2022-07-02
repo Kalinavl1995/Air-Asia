@@ -1,0 +1,18 @@
+.separator {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 363px;
+    background: url('../../img/separator/couple.png') right 15% bottom  no-repeat, url('../../img/separator/Rectangle.jpg') center / cover no-repeat;
+    background-color: #F3B4A5;
+}
+
+.separator__content {
+    display: flex;
+    align-items: center;
+    margin-right: 40em;
+}
+
+
+
+

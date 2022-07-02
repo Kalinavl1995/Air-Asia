@@ -1,0 +1,84 @@
+.homepage {
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    background: url('../../img/homepage/bg.jpg') center center / cover no-repeat;
+}
+
+.central {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+    width: 279px;
+    opacity: 0;
+    animation: grow .9s ;
+    animation-delay: .8s;
+    animation-fill-mode: forwards;
+
+}
+
+.central::before {
+    content: "";
+    background: url('../../img/homepage/shades.png') no-repeat;
+    width: 591px;
+    height: 248px;
+    position: absolute;
+    top: -20%;
+    left: -60%;
+    z-index: -10;
+    animation: shadow .5s;
+    animation-delay: 1.6s;
+    animation-fill-mode: both;
+}
+
+.central__img {
+    height: 119px;
+    width: 279px;
+}
+
+.subtitle-homepage {
+    margin-bottom: 52px;
+}
+
+
+
+
+@keyframes grow {
+
+    0% {
+        transform: scale3d(0, 0, 0);
+    }
+
+    25% {
+        transform: scale3d(1.1, 1.1, 1.1);
+    }
+
+    50% {
+        transform: scale3d(.9, .9, .9);
+    }
+
+    75% {
+        transform: scale3d(1.05, 1.05, 1.05);
+    }
+
+    100% {
+        transform: scale3d(1, 1, 1,);
+        opacity: 1;
+    }
+}
+
+@keyframes shadow {
+
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 210%;
+    }
+}

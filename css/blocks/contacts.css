@@ -70,6 +70,16 @@
     border-color: transparent transparent #EDEDED transparent;
   }
 
+.contacts__tooltip::before {
+  content: "";
+  display: block;
+  height: 30px;
+  left: 0;
+  right: 0;
+  top: -29px;
+  position: absolute;
+}
+
 .contacts__tooltip-text2 {
     font-weight: 600;
   }

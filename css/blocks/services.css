@@ -17,12 +17,12 @@
 }
 
 .services__pic {
-    align-self: flex-start;
     border-radius: 5px;
+    width: 40%;
 }
 
 .services__item-content {
-    padding: 10px 0 13px 58px;
+    padding: 10px 0 20px 62px;
 }
 
 .services__item-content p {

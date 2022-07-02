@@ -2,15 +2,23 @@
   font-size: 72px;
   font-weight: 700;
   line-height: 1.36em;
-  max-width: 551px;
 }
 
 .section-title {
-    font-size: 36px;
-    font-weight: 700;
-    color: #FFFFFF;
-  }
+  font-size: 36px;
+  font-weight: 700;
+  color: #FFFFFF;
+}
 
-  .section-title--black {
-    color: #000000;
-  }
+.section-title--color--black {
+  color: #000000;
+}
+.section-title--size--48 {
+  font-size: 48px;
+}
+
+.subtitle-homepage {
+  font-size: 18px;
+  font-weight: 400;
+  z-index: 10;
+}

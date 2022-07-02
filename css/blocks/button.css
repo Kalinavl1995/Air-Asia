@@ -10,21 +10,34 @@
     background: #F5170E;
     color: #fff;
     cursor: pointer;
-  }
+    transition: .3s;
+}
 
 .btn:hover {
     background: #DA0100;
-    transition: all .3s;
-  }
+    transition: .3s;
+}
 
-.btn--white {
+.btn--color--white {
     background: #FFFFFF;
     color: #F5170E;
     border: 1px solid #F5170E;
-  }
+}
 
-.btn--white:hover {
+.btn--color--white:hover {
     background: #DA0100;
     color: #fff;
-    transition: all .3s;
-  }
+}
+
+.btn--color--black {
+  background:#9C9C9C;
+}
+
+.btn--color--black:hover {
+  background: #2B2B2B !important;
+}
+
+.btn--size--for-homepage {
+  min-height: 55px;
+  min-width: 168px;
+}

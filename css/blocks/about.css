@@ -1,11 +1,14 @@
 .about {
     margin-bottom: 54px;
   }
+  .about__inner {
+    display: flex;
+
+  }
 
   .about__inner::before {
     content: "";
-    display: inline-block;
-    vertical-align: top;
+    display: block;
     width: 490px;
     height: 505px;
     background: url('../../img/about-us/gates.jpg') center center /cover no-repeat;
@@ -14,13 +17,11 @@
 
   .about__block {
     background: url('../../img/about-us/mountains.jpg') center center / cover no-repeat;
-    display: inline-block;
-    vertical-align: top;
     border-radius: 5px 5px 5px 5px;
     padding: 68px 202px 50px 80px ;
     max-width: 785px;
     min-height: 455px;
-    margin-left: -140px;
+    margin-left: -130px;
     margin-top: 97px;
   }
 
