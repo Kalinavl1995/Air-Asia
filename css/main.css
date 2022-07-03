@@ -21,8 +21,6 @@
 @import url('blocks/services.css');
 @import url('blocks/partners.css');
 
-@import url('homepage.css');
-
 @import url('blocks/reviews.css');
 @import url('blocks/review.css');
 @import url('blocks/reviews-form.css');
@@ -31,6 +29,9 @@
 @import url('blocks/separator.css');
 @import url('blocks/form.css');
 @import url('blocks/controls.css');
+
+@import url('homepage.css');
+
 
 
 

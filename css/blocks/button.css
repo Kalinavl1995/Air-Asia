@@ -1,36 +1,36 @@
 .btn {
-    display: inline-block;
-    padding: 18px 40px;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 14px;
-    font-weight: 700;
-    text-align: center;
-    text-transform: uppercase;
-    border-radius: 35px;
-    background: #F5170E;
-    color: #fff;
-    cursor: pointer;
-    transition: .3s;
+  display: inline-block;
+  padding: 18px 40px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  border-radius: 35px;
+  background: #F5170E;
+  color: #fff;
+  cursor: pointer;
+  transition: .3s;
 }
 
 .btn:hover {
-    background: #DA0100;
-    transition: .3s;
+  background: #DA0100;
+  transition: .3s;
 }
 
 .btn--color--white {
-    background: #FFFFFF;
-    color: #F5170E;
-    border: 1px solid #F5170E;
+  background: #FFFFFF;
+  color: #F5170E;
+  border: 1px solid #F5170E;
 }
 
 .btn--color--white:hover {
-    background: #DA0100;
-    color: #fff;
+  background: #DA0100;
+  color: #fff;
 }
 
 .btn--color--black {
-  background:#9C9C9C;
+  background: #9C9C9C;
 }
 
 .btn--color--black:hover {
