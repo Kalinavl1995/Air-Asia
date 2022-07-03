@@ -7,7 +7,7 @@
     width: 100%;
     align-items: center;
     justify-content: center;
-    background: url('../../img/homepage/bg.jpg') center center / cover no-repeat;
+    background: url('../img/homepage/bg.jpg') center center / cover no-repeat;
 }
 
 .central {
@@ -25,7 +25,7 @@
 
 .central::before {
     content: "";
-    background: url('../../img/homepage/shades.png') no-repeat;
+    background: url('../img/homepage/shades.png') no-repeat;
     width: 591px;
     height: 248px;
     position: absolute;
