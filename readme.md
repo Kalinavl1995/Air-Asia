@@ -1,5 +1,7 @@
 ## Выпускной проект курса: "Основы верстки сайтов" (Loftschool)
 
+#### [Air-Asia](https://kalinin-vlad.github.io/Air-Asia/)
+
 #### Описание и функционал:
 
 
